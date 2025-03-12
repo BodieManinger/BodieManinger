@@ -2,18 +2,16 @@
 int main(void)
 {
     int arr[24];
+    int buch = 65;
 
-    for(int i = 0; i > 24; i++)
+    for(int i = 0; i < 26; i++)
     {
-        int buch = 65;
         arr[i] = buch;
+        printf("%c\n", arr[i]);
         buch++;
     }
 
-    for(int i = 0; i<24; i++)
-    {
-        printf("%c", arr[i])
-    }
+   
 
     return 0;
 
